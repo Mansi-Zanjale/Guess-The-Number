@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Guess My Number!</title>
+    <title>Guess the Number Game — Can You Win?</title>
+
+    <meta name="description" content="Play 'Guess the Number', a fun JavaScript game. Guess the number between 1 and 20 before you run out of chances!" />
+    <meta name="keywords" content="guess the number game, javascript game, number guessing game, web game, play online" />
+    <link rel="canonical" href="https://Mansi-Zanjale.github.io/guess-the-number/" />
+
   </head>
   <body>
     <header>
-      <h1>Guess My Number!</h1>
+      <h1>Guess The Number!</h1>
       <p class="between">(Between 1 and 20)</p>
-      <button class="btn again">Again!</button>
       <div class="number">?</div>
+
     </header>
+
+    
     <main>
-      <section class="left">
+      <div class="left">
         <input type="number" class="guess" />
         <button class="btn check">Check!</button>
-      </section>
-      <section class="right">
+      </div>
+
+      <div class="right">
         <p class="message">Start guessing...</p>
-        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-score">Score: <span class="score">20</span></p>
         <p class="label-highscore">
           🥇 Highscore: <span class="highscore">0</span>
         </p>
-      </section>
+        <button class="btn again">Start Again!</button>
+      </div>
     </main>
+    
     <script src="script.js"></script>
   </body>
 </html>
